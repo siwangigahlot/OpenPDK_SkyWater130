@@ -155,7 +155,7 @@ Netgen in my Desktop:-
 ![image alt](https://github.com/siwangigahlot/OpenPDK_SkyWater130/blob/main/Pre-requisites/ToolsImage/Netgen.png)
 
 Xschem in my Desktop:-
-![image alt](https://github.com/siwangigahlot/OpenPDK_SkyWater130/blob/main/Pre-requisites/ToolsImage/XschemOpened.png)
+![image alt](https://github.com/siwangigahlot/OpenPDK_SkyWater130/blob/main/Pre-requisites/ToolsImage/xschem1opened.png)
 
 Ngspice in my Desktop:-
 ![image alt](https://github.com/siwangigahlot/OpenPDK_SkyWater130/blob/main/Pre-requisites/ToolsImage/NgspiceOpened.png)
@@ -208,6 +208,10 @@ $ netgen -batch lvs "../mag/inverter.spice inverter" "../xschem/inverter.spice i
 ```
 At first the LVS done but msimatch.
 ![image](https://github.com/siwangigahlot/OpenPDK_SkyWater130/blob/main/lab4/mismatch%20lvs.png)
+
+After LVS , the parasitic capacitances couldnot load complete but still here is what I got in terminal.
+![image alt](https://github.com/siwangigahlot/OpenPDK_SkyWater130/blob/main/lab4/after_lvs1.png)
+![image alt](https://github.com/siwangigahlot/OpenPDK_SkyWater130/blob/main/lab4/after_lvs2.png)
 
 
 
